@@ -1,4 +1,5 @@
-platform :ios, '7.0'
+platform :ios, '6.0'
+inhibit_all_warnings!
 
 ########################
 ## Core libraries
@@ -53,12 +54,14 @@ pod 'CBIntrospect' # Introspect is a tool for iOS that aids in debugging user in
 ## Unit testing
 ########################
 
-pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
+target :test do
+    pod 'OCMock' # It is an Objective-C implementation of mock objects.
+    pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
+end
 
 # pod 'TKSenTestAsync' # It is a SenTest category with asynchronous support.
 # pod 'Expecta' # It is a matcher framework for Objective-C and Cocoa.
 # pod 'Nocilla' # It is a stunning HTTP stubbing for iOS. Testing HTTP requests has never been easier.
-# pod 'OCMock' # It is an Objective-C implementation of mock objects.
 # pod 'Calabash' # It is an automated testing technology for Android and iOS native and hybrid applications. The home page is available at http' #//calaba.sh.
 # pod 'Frank' # It is automated acceptance tests for native iOS apps. The home page is available at http' #//www.testingwithfrank.com.
 
