@@ -20,7 +20,7 @@ pod 'NSData+Base64' # It is Base64 for NSData.
 # pod 'BlockKit' # It is a framework that block-ifies pieces of foundation and UIKit that are in desperate need.
 # pod 'Libextobjc' # The extended Objective-C library extends the dynamism of the Objective-C programming language to support additional patterns present in other programming languages (including those that are not necessarily object-oriented).
 pod 'JSONKit' # Json Parse Kit
-pod 'fmdb' # A Cocoa / Objective-C wrapper around SQLite
+pod 'FMDB' # A Cocoa / Objective-C wrapper around SQLite
 
 ########################
 ## Debugging and logging
