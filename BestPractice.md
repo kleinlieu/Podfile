@@ -1,5 +1,5 @@
 1. Use ARC to stop worrying about memory management.
-2: No longer need to declare instance variables for your properties.
+2. No longer need to declare instance variables for your properties.
 3. No longer need to @synthesize your properties. Auto-synthesize will automatically make the backing instance variable and prefix it with an underscore.
 4. It’s better to place your instance variables in the @implementation section than in the public interface.
 5. You no longer need forward declarations for your private methods and IBAction methods.
