@@ -21,7 +21,6 @@ pod 'NSData+Base64' # It is Base64 for NSData.
 # pod 'Libextobjc' # The extended Objective-C library extends the dynamism of the Objective-C programming language to support additional patterns present in other programming languages (including those that are not necessarily object-oriented).
 pod 'JSONKit' # Json Parse Kit
 pod 'fmdb' # A Cocoa / Objective-C wrapper around SQLite
-pod 'MBProgressHUD' # MBProgressHUD + Customizations
 
 ########################
 ## Debugging and logging
@@ -52,24 +51,25 @@ pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
 ########################
 
 pod 'UI7Kit' # It is a GUI toolkit to implement iOS7 look-and-feel UIKit under iOS5/iOS6. It is also supported for patching UIKit to UI7Kit in runtime.
-pod 'SVProgressHUD' # It is a clean and lightweight progress HUD for your iOS app.
 pod 'SIAlertView' # It is a UIAlertView replacement with block syntax and fancy transition styles.
 pod 'PSTCollectionView' # It is open source and a 100 percent API-compatible replacement of UICollectionView for iOS4+.
 pod 'QuickDialog' # It is a quick and easy dialog screen for iOS.
 pod 'ISRefreshControl' # It is an iOS4-compatible UIRefreshControl.
+pod 'MBProgressHUD' # MBProgressHUD + Customizations
+# pod 'SVProgressHUD' # It is a clean and lightweight progress HUD for your iOS app.
 # pod 'ViewDeck' # It is an implementation of the sliding functionality found in the Path 2.0 or Facebook iOS apps.
 # pod 'BCGenieEffect' # It is an OSX-style genie effect inside your iOS app.
 # pod 'JSMessagesViewController' # It is a message's UI for iPhone and iPad.
 # pod 'CorePlot' # It is a Cocoa plotting framework for Mac OS X and iOS.
 # pod 'DDPageControl' # It is an easily customizable alternative to UIKit's UIPageControl.
-pod 'MTStatusBarOverlay' # It is a custom iOS status bar overlay seen in apps, such as Reeder, Evernote, and Google Mobile App.
-pod 'FontasticIcons' # It is an Objective-C wrapper for iconic fonts.
+# pod 'MTStatusBarOverlay' # It is a custom iOS status bar overlay seen in apps, such as Reeder, Evernote, and Google Mobile App.
+# pod 'FontasticIcons' # It is an Objective-C wrapper for iconic fonts.
 
 ########################
 ## Other
 ########################
 
-pod 'ZBarSDK' # It is a QR and barcode scan library
+# pod 'ZBarSDK' # It is a QR and barcode scan library
 # pod 'ObjQREncoder' # It is an Objective-C QR encoder
 # pod 'CardIO' # It is an easy-to-use credit card scanning tool
 # pod 'CHCSVParser' # It is a proper CSV parser for Objective-C
