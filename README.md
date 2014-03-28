@@ -1,10 +1,19 @@
 Podfile
 =======
 
-brew git
+oh my zsh
+===
+
+	$ curl -L http://install.ohmyz.sh | sh
+
+homebrew
 ===
 
 	$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+git
+===
+
 	$ brew install git
 
 rbenv
