@@ -7,16 +7,16 @@ inhibit_all_warnings!
 
 pod 'RestKit' # It is a framework for consuming and modeling RESTful web resources on iOS and OS X.
 pod 'AFNetworking' # It is a delightful iOS and OS X networking framework.
-pod 'MagicalRecord' # It is a super-awesome, easy-fetching framework for Core Data.
-pod 'JSONKit' # A Very High Performance Objective-C JSON Library.
 pod 'FMDB' # A Cocoa / Objective-C wrapper around SQLite
-pod 'NSData+Base64' # It is Base64 for NSData.
-pod 'Base64' # RFC 4648 Base64 implementation in Objective-C ARC.
 pod 'Reachability' # ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.
-pod 'EGOCache' # Fast Caching for Objective-C (iPhone & Mac Compatible).
-pod 'SSToolkit' # A handy collection of solutions to common issues faced by iOS iOS developers. In our case, you’ll use it to check if the device has a Retina display.
-pod 'ConciseKit' # Makes programming in Objective-C less verbose, creating aliases for most-used methods.
 
+# pod 'NSData+Base64' # It is Base64 for NSData.
+# pod 'Base64' # RFC 4648 Base64 implementation in Objective-C ARC.
+# pod 'SSToolkit' # A handy collection of solutions to common issues faced by iOS iOS developers. In our case, you’ll use it to check if the device has a Retina display.
+# pod 'ConciseKit' # Makes programming in Objective-C less verbose, creating aliases for most-used methods.
+# pod 'EGOCache' # Fast Caching for Objective-C (iPhone & Mac Compatible).
+# pod 'MagicalRecord' # It is a super-awesome, easy-fetching framework for Core Data.
+# pod 'JSONKit' # A Very High Performance Objective-C JSON Library.
 # pod 'cocoa-oauth' # Cocoa library for creating signed requests according to the OAuth 1.0a standard.
 # pod 'Injective' # It is the Cocoa/Cocoa Touch Dependency Injection framework with features for simpler TDD.
 # pod 'AGi18n' # It easily localizes your iOS apps by automatically extracting texts from code and XIB files into localizable strings.
@@ -35,6 +35,7 @@ pod 'ConciseKit' # Makes programming in Objective-C less verbose, creating alias
 # pod 'A2DynamicDelegate' # Blocks are to functions as A2DynamicDelegate is to delegates. 
 # pod 'ShareKit' # Easy sharing of content via multiple methods and social networks.
 # pod 'Nimbus' # A comprehensive toolkit of modules aimed at replacing Three20.
+# pod 'Mantle' # A project by the Github team that helps remove all of the boilerplate code that Objective-C requires to turn JSON data into NSObject subclasses.
 
 ########################
 ## Debugging and logging
@@ -56,8 +57,8 @@ pod 'CBIntrospect' # Introspect is a tool for iOS that aids in debugging user in
 
 target :test do
     pod 'OCMock' # It is an Objective-C implementation of mock objects.
-    pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
-    pod 'KIF' # It allows for easy automation of iOS apps by leveraging the accessibility attributes that the OS makes available for those with visual disabilities.
+    # pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
+    # pod 'KIF' # It allows for easy automation of iOS apps by leveraging the accessibility attributes that the OS makes available for those with visual disabilities.
 end
 
 # pod 'TKSenTestAsync' # It is a SenTest category with asynchronous support.
@@ -92,6 +93,8 @@ pod 'Nimbus/AttributedLabel' # A framework created to replace three20 (and fix s
 # pod 'AQGridView' # A grid view for iPhone/iPad, designed to look similar to NSCollectionView.
 # pod 'Facebook-iOS-SDK' # Allows easy Facebook integration.
 # pod 'EGOTableViewPullRefresh' # Provides pull-to-refresh functionality.
+# pod 'LBBlurredImage' # A simple project that extends UIImageView and makes blurring images a breeze.
+# pod 'TSMessages' # Another wonderfully simple library that takes care of displaying overlay alerts and notifications.
 
 ########################
 ## Other
