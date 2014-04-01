@@ -10,6 +10,7 @@ pod 'AFNetworking' # It is a delightful iOS and OS X networking framework.
 pod 'FMDB' # A Cocoa / Objective-C wrapper around SQLite
 pod 'Reachability' # ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.
 
+# pod 'ReactiveCocoa' # A framework for composing and transforming streams of values
 # pod 'NSData+Base64' # It is Base64 for NSData.
 # pod 'Base64' # RFC 4648 Base64 implementation in Objective-C ARC.
 # pod 'SSToolkit' # A handy collection of solutions to common issues faced by iOS iOS developers. In our case, you’ll use it to check if the device has a Retina display.
@@ -56,8 +57,8 @@ pod 'CBIntrospect' # Introspect is a tool for iOS that aids in debugging user in
 ########################
 
 target :test do
-    pod 'OCMock' # It is an Objective-C implementation of mock objects.
-    # pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
+    # pod 'OCMock' # It is an Objective-C implementation of mock objects.
+    pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
     # pod 'KIF' # It allows for easy automation of iOS apps by leveraging the accessibility attributes that the OS makes available for those with visual disabilities.
 end
 
