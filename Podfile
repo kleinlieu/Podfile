@@ -5,11 +5,11 @@ inhibit_all_warnings!
 ## Core libraries
 ########################
 
-pod 'RestKit' # It is a framework for consuming and modeling RESTful web resources on iOS and OS X.
-pod 'AFNetworking' # It is a delightful iOS and OS X networking framework.
+pod 'AFNetworking', '2.2.1' # It is a delightful iOS and OS X networking framework.
 pod 'FMDB' # A Cocoa / Objective-C wrapper around SQLite
 pod 'Reachability' # ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.
 
+# pod 'RestKit', '0.22.0' # It is a framework for consuming and modeling RESTful web resources on iOS and OS X.
 # pod 'ReactiveCocoa' # A framework for composing and transforming streams of values
 # pod 'NSData+Base64' # It is Base64 for NSData.
 # pod 'Base64' # RFC 4648 Base64 implementation in Objective-C ARC.
@@ -57,9 +57,9 @@ pod 'CBIntrospect' # Introspect is a tool for iOS that aids in debugging user in
 ########################
 
 pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
+
 # pod 'OCMock' # It is an Objective-C implementation of mock objects.
 # pod 'KIF' # It allows for easy automation of iOS apps by leveraging the accessibility attributes that the OS makes available for those with visual disabilities.
-
 # pod 'TKSenTestAsync' # It is a SenTest category with asynchronous support.
 # pod 'Expecta' # It is a matcher framework for Objective-C and Cocoa.
 # pod 'Nocilla' # It is a stunning HTTP stubbing for iOS. Testing HTTP requests has never been easier.
@@ -70,10 +70,9 @@ pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
 ## User interface
 ########################
 
-pod 'MBProgressHUD' # MBProgressHUD + Customizations
-pod 'SIAlertView' # It is a UIAlertView replacement with block syntax and fancy transition styles.
-pod 'Nimbus/AttributedLabel' # A framework created to replace three20 (and fix some of the issues present in it).
-
+# pod 'MBProgressHUD' # MBProgressHUD + Customizations
+# pod 'SIAlertView' # It is a UIAlertView replacement with block syntax and fancy transition styles.
+# pod 'Nimbus/AttributedLabel' # A framework created to replace three20 (and fix some of the issues present in it).
 # pod 'CustomBadge' # Draws a typical iOS badge indicator with a custom text on any view.
 # pod 'UI7Kit' # It is a GUI toolkit to implement iOS7 look-and-feel UIKit under iOS5/iOS6. It is also supported for patching UIKit to UI7Kit in runtime.
 # pod 'SVPullToRefresh' # Give pull-to-refresh to any UIScrollView with 1 line of code.
