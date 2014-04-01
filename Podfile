@@ -56,11 +56,9 @@ pod 'CBIntrospect' # Introspect is a tool for iOS that aids in debugging user in
 ## Unit testing
 ########################
 
-target :test do
-    # pod 'OCMock' # It is an Objective-C implementation of mock objects.
-    pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
-    # pod 'KIF' # It allows for easy automation of iOS apps by leveraging the accessibility attributes that the OS makes available for those with visual disabilities.
-end
+pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
+# pod 'OCMock' # It is an Objective-C implementation of mock objects.
+# pod 'KIF' # It allows for easy automation of iOS apps by leveraging the accessibility attributes that the OS makes available for those with visual disabilities.
 
 # pod 'TKSenTestAsync' # It is a SenTest category with asynchronous support.
 # pod 'Expecta' # It is a matcher framework for Objective-C and Cocoa.
