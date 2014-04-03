@@ -5,18 +5,18 @@ inhibit_all_warnings!
 ## Core libraries
 ########################
 
-pod 'AFNetworking', '2.2.1' # It is a delightful iOS and OS X networking framework.
 pod 'FMDB' # A Cocoa / Objective-C wrapper around SQLite
+pod 'AFNetworking', '2.2.1' # It is a delightful iOS and OS X networking framework.
 pod 'Reachability' # ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.
 
 # pod 'RestKit', '0.22.0' # It is a framework for consuming and modeling RESTful web resources on iOS and OS X.
+# pod 'MagicalRecord' # It is a super-awesome, easy-fetching framework for Core Data.
 # pod 'ReactiveCocoa' # A framework for composing and transforming streams of values
 # pod 'NSData+Base64' # It is Base64 for NSData.
 # pod 'Base64' # RFC 4648 Base64 implementation in Objective-C ARC.
 # pod 'SSToolkit' # A handy collection of solutions to common issues faced by iOS iOS developers. In our case, you’ll use it to check if the device has a Retina display.
 # pod 'ConciseKit' # Makes programming in Objective-C less verbose, creating aliases for most-used methods.
 # pod 'EGOCache' # Fast Caching for Objective-C (iPhone & Mac Compatible).
-# pod 'MagicalRecord' # It is a super-awesome, easy-fetching framework for Core Data.
 # pod 'JSONKit' # A Very High Performance Objective-C JSON Library.
 # pod 'cocoa-oauth' # Cocoa library for creating signed requests according to the OAuth 1.0a standard.
 # pod 'Injective' # It is the Cocoa/Cocoa Touch Dependency Injection framework with features for simpler TDD.
@@ -43,20 +43,18 @@ pod 'Reachability' # ARC and GCD Compatible Reachability Class for iOS and OS X.
 ########################
 
 pod 'CocoaLumberjack' # It is a fast and simple, yet powerful and flexible logging framework for Mac and iOS.
-pod 'CBIntrospect' # Introspect is a tool for iOS that aids in debugging user interfaces built with UIKit. It communicates with a view introspector, a desktop app.
-
+# pod 'CBIntrospect' # Introspect is a tool for iOS that aids in debugging user interfaces built with UIKit. It communicates with a view introspector, a desktop app.
 # pod 'TestFlightSDK' # It is a TestFlight SDK for over-the-air beta testing and crash reporting.
 # pod 'Reveal-iOS-SDK' # See your application's view hierarchy at runtime with advanced 2D and 3D visualizations.
 # pod 'PonyDebugger' # It is a client library and a gateway server combination that uses chrome developer tools on your browser to debug your application's network traffic and managed object contexts.
 # pod 'LibComponentLogging-Core' # It is a logging library that provides log levels, log components, and pluggable logging backends.
 # pod 'LibComponentLogging-NSLog' # The LibComponentLogging logging backend redirects logging to NSLog.
 
-
 ########################
 ## Unit testing
 ########################
 
-pod 'Kiwi/XCTest', '2.2.4' # It is a Behavior-Driven Development library for iOS development.
+pod 'Kiwi' # It is a Behavior-Driven Development library for iOS development.
 
 # pod 'OCMock' # It is an Objective-C implementation of mock objects.
 # pod 'KIF' # It allows for easy automation of iOS apps by leveraging the accessibility attributes that the OS makes available for those with visual disabilities.
@@ -70,14 +68,15 @@ pod 'Kiwi/XCTest', '2.2.4' # It is a Behavior-Driven Development library for iOS
 ## User interface
 ########################
 
+pod 'UI7Kit' # It is a GUI toolkit to implement iOS7 look-and-feel UIKit under iOS5/iOS6. It is also supported for patching UIKit to UI7Kit in runtime.
+# pod 'FontasticIcons' # It is an Objective-C wrapper for iconic fonts.
+# pod 'QuickDialog' # It is a quick and easy dialog screen for iOS.
 # pod 'MBProgressHUD' # MBProgressHUD + Customizations
 # pod 'SIAlertView' # It is a UIAlertView replacement with block syntax and fancy transition styles.
 # pod 'Nimbus/AttributedLabel' # A framework created to replace three20 (and fix some of the issues present in it).
 # pod 'CustomBadge' # Draws a typical iOS badge indicator with a custom text on any view.
-# pod 'UI7Kit' # It is a GUI toolkit to implement iOS7 look-and-feel UIKit under iOS5/iOS6. It is also supported for patching UIKit to UI7Kit in runtime.
 # pod 'SVPullToRefresh' # Give pull-to-refresh to any UIScrollView with 1 line of code.
 # pod 'PSTCollectionView' # It is open source and a 100 percent API-compatible replacement of UICollectionView for iOS4+.
-# pod 'QuickDialog' # It is a quick and easy dialog screen for iOS.
 # pod 'ISRefreshControl' # It is an iOS4-compatible UIRefreshControl.
 # pod 'SVProgressHUD' # It is a clean and lightweight progress HUD for your iOS app.
 # pod 'ViewDeck' # It is an implementation of the sliding functionality found in the Path 2.0 or Facebook iOS apps.
@@ -86,7 +85,6 @@ pod 'Kiwi/XCTest', '2.2.4' # It is a Behavior-Driven Development library for iOS
 # pod 'CorePlot' # It is a Cocoa plotting framework for Mac OS X and iOS.
 # pod 'DDPageControl' # It is an easily customizable alternative to UIKit's UIPageControl.
 # pod 'MTStatusBarOverlay' # It is a custom iOS status bar overlay seen in apps, such as Reeder, Evernote, and Google Mobile App.
-# pod 'FontasticIcons' # It is an Objective-C wrapper for iconic fonts.
 # pod 'UAModalPanel' # An animated modal panel alternative for iOS.
 # pod 'AQGridView' # A grid view for iPhone/iPad, designed to look similar to NSCollectionView.
 # pod 'Facebook-iOS-SDK' # Allows easy Facebook integration.
