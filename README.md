@@ -24,7 +24,7 @@ rbenv
 	$ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 	$ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 
-cocospod
+cocoapods
 ===
 
 	$ [sudo] gem install cocoapods
